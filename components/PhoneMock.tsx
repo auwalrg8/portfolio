@@ -3,10 +3,9 @@ import type { Screen } from "@/content/projects";
 /**
  * Device frame around a screen image.
  *
- * The image is the SCREEN ONLY at a 390×844 ratio — the bezel lives here.
- * To swap in a real screenshot, drop a PNG into /public/screens/ with the
- * same filename as the placeholder SVG and update the path in
- * content/projects.ts. Nothing else needs to change.
+ * The image is the SCREEN ONLY — the bezel lives here. The shipped captures in
+ * /public/screens are 390×867, which is what the width/height below reserve; a
+ * capture at a different ratio will jump on load unless those are updated too.
  */
 export function PhoneMock({ screen, className = "" }: { screen: Screen; className?: string }) {
   return (
@@ -17,7 +16,7 @@ export function PhoneMock({ screen, className = "" }: { screen: Screen; classNam
           src={screen.src}
           alt={screen.caption}
           width={390}
-          height={844}
+          height={867}
           loading="lazy"
           className="block w-full rounded-[1.6rem]"
         />

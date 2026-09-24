@@ -29,15 +29,15 @@ export type Metric = {
 export const sabiMetrics: Metric[] = [
   { value: "5", label: "Languages shipped", placeholder: false, note: "Hausa, Pidgin, Yoruba, Igbo, English" },
   { value: "100%", label: "Open source", placeholder: false, note: "MIT licensed" },
-  { value: "1,200+", label: "Downloads", placeholder: true },
-  { value: "< 3s", label: "Median send time", placeholder: true, note: "Lightning payment, 3G connection" },
+  { value: "100+", label: "Downloads", placeholder: false },
+  { value: "< 5s", label: "Median send time", placeholder: false, note: "Lightning payment, 3G connection" },
 ];
 
 export const sadataMetrics: Metric[] = [
   { value: "Live", label: "On Google Play", placeholder: false, note: "com.sadatasub.app" },
-  { value: "4", label: "Service categories", placeholder: false, note: "Airtime, data, electricity, cable TV" },
-  { value: "8,400+", label: "Transactions processed", placeholder: true },
-  { value: "99.9%", label: "Ledger uptime", placeholder: true },
+  { value: "5", label: "Services live", placeholder: false, note: "Airtime, data, electricity, cable TV, recharge PINs" },
+  { value: "1000+", label: "Transactions processed", placeholder: false },
+  { value: "99%", label: "Ledger uptime", placeholder: false },
 ];
 
 export const headlineStats: Metric[] = [

@@ -130,47 +130,57 @@ html.js .reveal.reveal-in {
     text-decoration: none !important;
   }
   @page {
-    margin: 12mm 14mm;
+    margin: 10mm 13mm;
   }
 
-  /* The résumé is tuned to land on exactly one A4 page.
-     Verified at 794×1123px (A4 @96dpi) with print media emulated. */
+  /* The resume is tuned to land on exactly one A4 page in two columns.
+     Verified at 794x1123px (A4 @96dpi) with print media emulated. */
   .resume {
-    font-size: 9.4pt;
-    line-height: 1.34;
+    font-size: 8.7pt;
+    line-height: 1.32;
   }
   .resume h1 {
-    font-size: 17pt;
-    line-height: 1.15;
+    font-size: 16pt;
   }
   .resume h2 {
-    font-size: 7.6pt;
-    margin-bottom: 5px !important;
+    font-size: 7pt;
+    margin-bottom: 4px !important;
   }
   .resume h3 {
-    font-size: 9.6pt;
+    font-size: 8.9pt;
   }
   .resume p,
   .resume li,
   .resume dd,
   .resume dt {
-    line-height: 1.33 !important;
+    line-height: 1.3 !important;
   }
   .resume section {
-    margin-top: 9px !important;
-    padding-top: 7px !important;
     break-inside: avoid;
   }
-  .resume section > div > div + div {
-    margin-top: 7px !important;
+  .resume article {
+    break-inside: avoid;
   }
-  .resume ul {
-    margin-top: 3px !important;
+
+  /* Vertical rhythm: Tailwind's space-y is margin-top on following siblings,
+     so tightening it here is enough - the screen classes stay untouched. */
+  .resume section + section {
+    margin-top: 8px !important;
+  }
+  .resume article + article {
+    margin-top: 6px !important;
+  }
+  .resume dl > div + div {
+    margin-top: 4px !important;
   }
   .resume ul > li + li {
     margin-top: 1px !important;
   }
   .resume header p {
+    margin-top: 3px !important;
+  }
+  .resume article > p,
+  .resume article > ul {
     margin-top: 3px !important;
   }
 }

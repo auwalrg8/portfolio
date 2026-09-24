@@ -1,7 +1,8 @@
 # auwalabubakar.com — portfolio
 
 Portfolio, case studies and résumé for Auwal Abubakar.
-Next.js 15 · TypeScript · Tailwind v4 · Framer Motion.
+Next.js 15 · TypeScript · Tailwind v4. No animation library — the scroll reveal is
+a small IntersectionObserver in `components/Reveal.tsx`.
 
 ```bash
 npm install
@@ -43,15 +44,21 @@ SA Data Sub ledger uptime.
 
 ---
 
-## Replacing the placeholder screenshots
+## The screenshots
 
-`public/screens/*.svg` are generated mockups drawn from your READMEs. To swap in a real one:
+`public/screens/*.png` are real captures from the two apps, 390×867, screen only —
+the device frame is drawn by `components/PhoneMock.tsx`, so do not include a bezel.
 
-1. drop the image into `public/screens/` (a plain screen capture — no device frame,
-   the frame is added by `components/PhoneMock.tsx`)
-2. point at it in `content/projects.ts`, e.g. `src: "/screens/sabi-home.png"`
+To swap one, overwrite the file and check its caption in `content/projects.ts` still
+describes what is on screen. If a capture is not 390×867, update `width`/`height` in
+`PhoneMock.tsx` to match, or the image will jump as it loads.
 
-Regenerate the placeholders any time with `node scripts/gen-screens.mjs`.
+Note that a few filenames no longer describe their contents: `sabi-onboarding.png` is
+the Profile screen, `sadata-fund.png` is wallet history with a transaction open, and
+`sadata-receipt.png` is Invite & earn. The captions match the images, not the names.
+
+`scripts/gen-screens.mjs` still generates the old SVG placeholders. Nothing references
+them any more; it is kept only in case a new screen needs a stand-in before it is built.
 
 ---
 
@@ -78,6 +85,9 @@ Then update `SITE_URL` in `app/layout.tsx`, `app/sitemap.ts` and `app/robots.ts`
 ## Notes
 
 - Light-first with a dark toggle; theme is set before first paint, so no flash.
-- `/resume` prints to a clean one-pager — use the Print button, then "Save as PDF".
+- `/resume` is a two-column layout: work and experience on the left, skills and
+  availability in the right rail. It prints to a single A4 page (verified at
+  794×1123px with print media emulated); the print sizing lives in the `@media print`
+  block at the bottom of `app/globals.css`. If you add entries, re-check the fit.
 - Every page is statically rendered, so crawlers and ATS parsers see the full text.
 - Accent colour is one line: `--accent` in `app/globals.css` (and its dark-mode pair).

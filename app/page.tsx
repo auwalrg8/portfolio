@@ -103,7 +103,7 @@ function Hero() {
 
 function Work() {
   return (
-    <Section id="work" eyebrow="Selected work" title="Two apps in production.">
+    <Section id="work" eyebrow="Selected work" title="Two apps, both live.">
       <div className="space-y-6">
         {projects.map((p, i) => (
           <Reveal key={p.slug} delay={i * 0.05}>
@@ -173,7 +173,7 @@ function Work() {
 
 function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Five years inside Bitcoin product.">
+    <Section id="experience" eyebrow="Experience" title="Where I have worked.">
       <ol className="relative border-l border-line pl-6 sm:pl-8">
         {experience.map((r, i) => (
           <Reveal key={`${r.org}-${r.period}`} delay={i * 0.04}>
@@ -202,11 +202,11 @@ function Experience() {
 
 function Process() {
   return (
-    <Section id="process" eyebrow="How I work" title="Idea to production, AI-native.">
+    <Section id="process" eyebrow="How I work" title="How a project actually goes.">
       <Reveal>
         <p className="-mt-4 mb-10 max-w-2xl leading-relaxed text-muted">
-          The tooling gives me the velocity of a small team. The architecture, the judgement and every
-          line that ships are still reviewed by me.
+          The AI tooling gets me through the work at roughly the pace of a small team. What it does not
+          do is make the calls. I still decide the architecture, and I still read everything that ships.
         </p>
       </Reveal>
 
@@ -229,7 +229,7 @@ function Process() {
 
 function Capabilities() {
   return (
-    <Section id="capabilities" eyebrow="Capabilities" title="What I bring to a team.">
+    <Section id="capabilities" eyebrow="Capabilities" title="What I work with.">
       <div className="grid gap-x-8 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
         {capabilities.map((c, i) => (
           <Reveal key={c.group} delay={(i % 3) * 0.04}>
@@ -257,7 +257,7 @@ function Capabilities() {
 
 function About() {
   return (
-    <Section id="about" eyebrow="About" title="Kaduna, Nigeria.">
+    <Section id="about" eyebrow="About" title="A bit about me.">
       <div className="max-w-2xl space-y-4">
         {profile.about.split("\n\n").map((para, i) => (
           <Reveal key={i} delay={i * 0.04}>
@@ -277,10 +277,11 @@ function Contact() {
       <Reveal>
         <div className="rounded-2xl border border-line bg-surface p-8 sm:p-12">
           <h2 className="max-w-lg text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
-            Building something that moves money? Let&rsquo;s talk.
+            Working on something that moves money?
           </h2>
           <p className="mt-4 max-w-lg leading-relaxed text-muted">
-            Open to full-time roles and select contract work. Fastest way to reach me is email.
+            I am open to full-time roles, and I take contract work when it is a good fit. Email gets to
+            me fastest.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-3">
             <a

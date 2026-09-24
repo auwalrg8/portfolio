@@ -12,7 +12,7 @@ export const experience: Role[] = [
     role: "Product Designer & Flutter Developer",
     period: "Shipped Aug 2026",
     summary:
-      "Designed and built a Naira utility wallet from idea to Google Play. Double-entry ledger, Paystack rails, biometric auth, built to survive unreliable mobile data.",
+      "Built a Naira utility wallet on my own and put it on Google Play. Double-entry ledger, Paystack for cards, biometric login, and a transaction flow that holds up when mobile data cuts out halfway through.",
     current: true,
   },
   {
@@ -20,7 +20,7 @@ export const experience: Role[] = [
     role: "Lead Designer & Flutter Developer",
     period: "2025 — Present",
     summary:
-      "Nigeria's first non-custodial Bitcoin + Lightning + Nostr wallet. Full ownership of UX and Flutter implementation — onboarding, payments, social recovery, low-data interfaces, five languages.",
+      "A non-custodial Bitcoin, Lightning and Nostr wallet made for Nigeria. I own the UX and the Flutter build: onboarding, payments, social recovery, low-data screens, and five languages.",
     current: true,
   },
   {
@@ -28,21 +28,21 @@ export const experience: Role[] = [
     role: "UI Designer",
     period: "2022 — 2023",
     summary:
-      "Lightning payment flows and user research for a Bitcoin crowdfunding platform. Designed contribution and payout journeys used by open-source projects raising in sats.",
+      "Designed the Lightning payment flows and ran user research for a Bitcoin crowdfunding platform. The contribution and payout journeys I worked on are what open-source projects use to raise in sats.",
   },
   {
     org: "Synonym",
     role: "Product Designer — Bitkit Wallet",
     period: "2022",
     summary:
-      "Wallet UX for Bitkit. Self-custody flows, backup models and the interface language for Lightning-first mobile payments.",
+      "Wallet UX for Bitkit. Self-custody flows, backup models, and the interface language for a Lightning-first mobile wallet.",
   },
   {
     org: "Bitcoin Design Community / Alby",
     role: "Open-Source Contributor",
     period: "2021 — Present",
     summary:
-      "Ongoing contributions to open-source Bitcoin design — wallet patterns, payment UX guidance and interface work across community projects including GetAlby.",
+      "Still contributing to open-source Bitcoin design: wallet patterns, payment UX reviews and interface work across community projects, including GetAlby.",
     current: true,
   },
 ];
@@ -65,18 +65,50 @@ export const capabilities = [
     items: ["React", "Next.js", "Tailwind", "Neon / Postgres", "SQL", "Rust", "REST APIs"],
   },
   {
-    group: "AI-native workflow",
+    group: "AI-assisted workflow",
     items: ["Claude Code", "Grok", "GPT", "Prompt engineering", "AI-assisted design"],
   },
 ];
 
 export const processSteps = [
-  { n: "01", title: "Idea", body: "Problem framing with real users in mind — who loses money, where, and why." },
-  { n: "02", title: "Prompt engineering", body: "Grok and GPT for product thinking, edge cases and competitive teardown before anything is drawn." },
-  { n: "03", title: "UX / UI", body: "Figma with AI assistance. Flows first, then a component library that maps 1:1 to widgets." },
-  { n: "04", title: "Architecture", body: "Clean Architecture, feature modules and Riverpod state boundaries decided before the first screen is built." },
-  { n: "05", title: "Implementation", body: "Claude Code for high-quality Flutter. I review every line — the architecture is mine, the velocity is shared." },
-  { n: "06", title: "Backend", body: "Neon / Postgres, SQL, REST APIs. Ledgers, idempotency and reconciliation designed to be correct under failure." },
-  { n: "07", title: "Landing page", body: "React or Next.js marketing site, shipped with the app, not after it." },
-  { n: "08", title: "Production", body: "Play Store release, monitoring, and iteration on what real usage exposes." },
+  {
+    n: "01",
+    title: "Framing the problem",
+    body: "Who is losing money, where in the flow, and why. If I can't answer that, I don't start.",
+  },
+  {
+    n: "02",
+    title: "Thinking it through with AI",
+    body: "Grok and GPT to pull apart edge cases and look at what competitors got wrong, before anything gets drawn.",
+  },
+  {
+    n: "03",
+    title: "UX and UI",
+    body: "Figma, with AI helping. Flows first, then a component library that maps one-to-one onto widgets.",
+  },
+  {
+    n: "04",
+    title: "Architecture",
+    body: "Feature modules and Riverpod state boundaries get decided before I build the first screen. Retrofitting those is painful.",
+  },
+  {
+    n: "05",
+    title: "Building",
+    body: "Claude Code writes most of the Flutter. I read every line of it, and the architecture decisions stay mine.",
+  },
+  {
+    n: "06",
+    title: "Backend",
+    body: "Neon and Postgres, SQL, REST APIs. Ledgers and idempotency designed for the case where the request never comes back.",
+  },
+  {
+    n: "07",
+    title: "Landing page",
+    body: "A React or Next.js site that goes up with the app, not three weeks after it.",
+  },
+  {
+    n: "08",
+    title: "Release",
+    body: "Play Store, monitoring, then fixing whatever real usage turns up. That part never really ends.",
+  },
 ];
