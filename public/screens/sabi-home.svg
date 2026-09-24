@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" role="img">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#0D0D0F" opacity="1"/>
+<text x="28" y="42" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FAFAF9" text-anchor="start" opacity="1">9:41</text>
+<rect x="300" y="32" width="18" height="11" rx="2" fill="#FAFAF9" opacity="0.9"/>
+<rect x="322" y="30" width="26" height="14" rx="4" fill="none" stroke="#FAFAF9" stroke-width="1.5" opacity="0.6"/>
+<rect x="324" y="32" width="20" height="10" rx="2" fill="#FAFAF9" opacity="0.9"/>
+<rect x="145" y="812" width="100" height="5" rx="2.5" fill="#FAFAF9" opacity="0.35"/>
+<text x="28" y="120" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">Good evening</text>
+<text x="28" y="146" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#FAFAF9" text-anchor="start" opacity="1">Auwal</text>
+<circle cx="348" cy="130" r="20" fill="#17171A" opacity="1"/>
+<rect x="24" y="178" width="342" height="150" rx="22" fill="#17171A" opacity="1"/>
+<text x="48" y="216" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">Total balance</text>
+<text x="48" y="262" font-family="Inter, system-ui, sans-serif" font-size="38" font-weight="700" fill="#FAFAF9" text-anchor="start" opacity="1">₦ 184,250</text>
+<text x="48" y="290" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#F7931A" text-anchor="start" opacity="1">≈ 412,900 sats</text>
+<rect x="250" y="274" width="96" height="26" rx="13" fill="#F7931A" opacity="0.14"/>
+<text x="298" y="291" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#F7931A" text-anchor="middle" opacity="1">tap to switch</text>
+<rect x="44" y="356" width="58" height="58" rx="18" fill="#17171A" opacity="1"/>
+<circle cx="73" cy="385" r="9" fill="none" stroke="#F7931A" stroke-width="2" opacity="1"/>
+<text x="73" y="434" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="middle" opacity="1">Send</text>
+<rect x="128" y="356" width="58" height="58" rx="18" fill="#17171A" opacity="1"/>
+<circle cx="157" cy="385" r="9" fill="none" stroke="#F7931A" stroke-width="2" opacity="1"/>
+<text x="157" y="434" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="middle" opacity="1">Receive</text>
+<rect x="212" y="356" width="58" height="58" rx="18" fill="#17171A" opacity="1"/>
+<circle cx="241" cy="385" r="9" fill="none" stroke="#F7931A" stroke-width="2" opacity="1"/>
+<text x="241" y="434" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="middle" opacity="1">Buy</text>
+<rect x="296" y="356" width="58" height="58" rx="18" fill="#17171A" opacity="1"/>
+<circle cx="325" cy="385" r="9" fill="none" stroke="#F7931A" stroke-width="2" opacity="1"/>
+<text x="325" y="434" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="middle" opacity="1">P2P</text>
+<text x="28" y="494" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#FAFAF9" text-anchor="start" opacity="1">Recent</text>
+<text x="362" y="494" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#F7931A" text-anchor="end" opacity="1">See all</text>
+<circle cx="46" cy="534" r="17" fill="#17171A" opacity="1"/>
+<circle cx="46" cy="534" r="6" fill="#22C55E" opacity="0.9"/>
+<text x="76" y="532" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#FAFAF9" text-anchor="start" opacity="1">Received</text>
+<text x="76" y="550" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">Lightning · 2m ago</text>
+<text x="358" y="538" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#22C55E" text-anchor="end" opacity="1">+12,000</text>
+<circle cx="46" cy="596" r="17" fill="#17171A" opacity="1"/>
+<circle cx="46" cy="596" r="6" fill="#FAFAF9" opacity="0.9"/>
+<text x="76" y="594" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#FAFAF9" text-anchor="start" opacity="1">Musa Ibrahim</text>
+<text x="76" y="612" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">Zap · 1h ago</text>
+<text x="358" y="600" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FAFAF9" text-anchor="end" opacity="1">-2,100</text>
+<circle cx="46" cy="658" r="17" fill="#17171A" opacity="1"/>
+<circle cx="46" cy="658" r="6" fill="#FAFAF9" opacity="0.9"/>
+<text x="76" y="656" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#FAFAF9" text-anchor="start" opacity="1">Airtime — MTN</text>
+<text x="76" y="674" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">Bill · Yesterday</text>
+<text x="358" y="662" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FAFAF9" text-anchor="end" opacity="1">-500</text>
+<circle cx="46" cy="720" r="17" fill="#17171A" opacity="1"/>
+<circle cx="46" cy="720" r="6" fill="#22C55E" opacity="0.9"/>
+<text x="76" y="718" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#FAFAF9" text-anchor="start" opacity="1">Bought BTC</text>
+<text x="76" y="736" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#8A8A93" text-anchor="start" opacity="1">P2P · Tue</text>
+<text x="358" y="724" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#22C55E" text-anchor="end" opacity="1">+45,000</text>
+<rect x="24" y="762" width="342" height="1" rx="0" fill="#26262B" opacity="1"/>
+</svg>
